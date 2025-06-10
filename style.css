@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.aboutme{
+    text-align: center;
+}
+.contacts {
+    text-align: center;
+}
+.background{
+    background-color: rgb(25, 25, 25);
+}
+.imgholder{
+    text-align: center;
+    padding-top: 2em;
+}
+.me {
+    height: 200px;
+    clip-path: circle();
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    gap: 1em;
+}
+.textdiv{
+    text-align: center;
+    padding: 2em;
+}
+
+.textwhite {
+    color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textgray {
+    color: rgb(200, 200, 200);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrapper{
+    align-items: center; 
+    justify-content: space-evenly; 
+    display: flex;
+}
+.portfolio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+a {
+    color: rgb(235, 235, 235);
+}
