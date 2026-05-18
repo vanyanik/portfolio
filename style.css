@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    padding-bottom: 2em;
+}
 .aboutme{
     text-align: center;
 }
@@ -55,6 +58,10 @@
     align-items: center; 
     justify-content: space-evenly; 
     display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
 }
 .portfolio {
     width: 100%;
@@ -68,4 +75,62 @@
 }
 a {
     color: rgb(235, 235, 235);
+}
+
+.experience-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    text-align: center;
+}
+
+.experience-card {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    backdrop-filter: blur(10px);
+}
+
+.experience-image {
+    width: 220px;
+    height: 140px;
+
+    object-fit: contain;
+
+    background: rgba(255,255,255,0.05);
+
+}
+
+.experience-info {
+    flex: 1;
+}
+
+.experience-info h2 {
+    margin-bottom: 0.5em;
+}
+
+.experience-info p {
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.pastwork-title {
+    margin-top: -3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
